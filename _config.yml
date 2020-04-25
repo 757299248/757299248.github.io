@@ -1,0 +1,25 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+# Site settings
+title: Kkocdko's Blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://kkocdko.github.io" # the base hostname & protocol for your site
+# permalink: /:year:month:day/:title
+permalink: /:year:month:day/:hour:minute:second
+# Build settings
+markdown: kramdown
+kramdown:
+input: GFM
+syntax_highlighter: rouge
+# url
+category_dir: category/
+tag_dir: tag/
+# excerpt
+excerpt_separator: "\n\n\n"
+# paginate
+gems: [jekyll-paginate]
+paginate: 10
